@@ -1,6 +1,6 @@
 replicaCount: 3
 image:
-  repository: nginx
+  repository: ngin
   tag: latest
   pullPolicy: IfNotPresent
 service:
