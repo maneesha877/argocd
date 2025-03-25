@@ -1,0 +1,10 @@
+apiVersion: s3.aws.crossplane.io/v1alpha1
+kind: Bucket
+metadata:
+  name: demo-s3-bucket
+spec:
+  forProvider:
+    region: us-east-1
+    acl: private
+  providerConfigRef:
+    name: aws-provider
